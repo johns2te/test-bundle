@@ -1,0 +1,23 @@
+displayName: CloudBees CI Workshop Plugin Catalog
+name: cbci-workshop-catalog
+type: plugin-catalog
+version: '1'
+configurations:
+- description: Workshop Additional Plugins
+  includePlugins:
+    configuration-as-code-groovy:
+      version: 1.1
+    extended-read-permission:
+      version: 3.2
+    pipeline-utility-steps:
+      version: 2.6.1
+    async-http-client:
+      version: 1.7.24.3
+    handlebars:
+      version: 3.0.8
+    momentjs:
+      version: 1.1.1
+    wikitext:
+      version: '3.15'
+    workflow-cps-global-lib:
+      version: 588.v576c103a_ff86
